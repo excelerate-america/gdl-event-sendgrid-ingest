@@ -13,8 +13,8 @@ const jsonBodyParser = express.json();
 // const DATASET = 'sg_data_in_webhook';
 // const TABLE_EVENTS_DATA_IN = 'sg_table_events_data_in';
 // const TABLE_EVENTS_RAW_IN = 'sg_table_events_raw_in';
-const BUCKET_EVENTS_DATA_IN = 'eagdl-sg-events-data-in';
-const BUCKET_EVENTS_RAW_IN = 'eagdl-sg-events-raw-in';
+const BUCKET_EVENTS_DATA_IN = 'gdl-sg-events-data-in';
+const BUCKET_EVENTS_RAW_IN = 'gdl-sg-events-raw-in';
 
 const PORT = process.env.PORT || 8080;
 app.listen(PORT, () => {
